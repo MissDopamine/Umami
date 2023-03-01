@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8076C1529ADE8FC0021DA29 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076C1429ADE8FC0021DA29 /* Ingredient.swift */; };
+		E8076C1729ADE96C0021DA29 /* ingridients.geojson in Resources */ = {isa = PBXBuildFile; fileRef = E8076C1629ADE96C0021DA29 /* ingridients.geojson */; };
+		E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076C1829ADE9E70021DA29 /* Bundle.swift */; };
+		E87CBE7129ACB49D0079F008 /* ComposingCarbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7029ACB49D0079F008 /* ComposingCarbo.swift */; };
+		E87CBE7329ACCDBB0079F008 /* ComposingProtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */; };
+		E87CBE7529ACCDCB0079F008 /* ComposingVeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */; };
+		E87CBE7729AD104E0079F008 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7629AD104E0079F008 /* ModalView.swift */; };
+		E8B8886329A8C97900CA3B63 /* Disclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B8886229A8C97900CA3B63 /* Disclaimer.swift */; };
+		E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */; };
 		E8CB93D729A8B9B0004A6A2C /* Umami3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */; };
 		E8CB93D929A8B9B0004A6A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93D829A8B9B0004A6A2C /* ContentView.swift */; };
 		E8CB93DB29A8B9B1004A6A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */; };
 		E8CB93DE29A8B9B1004A6A2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93DD29A8B9B1004A6A2C /* Preview Assets.xcassets */; };
 		E8CB93E029A8B9B1004A6A2C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */; };
 		E8CB93E329A8B9B1004A6A2C /* Umami3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93E129A8B9B1004A6A2C /* Umami3.xcdatamodeld */; };
+		E8CB93EB29A8BA28004A6A2C /* FuturaHandwritten in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93EA29A8BA28004A6A2C /* FuturaHandwritten */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8076C1429ADE8FC0021DA29 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		E8076C1629ADE96C0021DA29 /* ingridients.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ingridients.geojson; sourceTree = "<group>"; };
+		E8076C1829ADE9E70021DA29 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		E87CBE7029ACB49D0079F008 /* ComposingCarbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingCarbo.swift; sourceTree = "<group>"; };
+		E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingProtein.swift; sourceTree = "<group>"; };
+		E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingVeg.swift; sourceTree = "<group>"; };
+		E87CBE7629AD104E0079F008 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		E8B8886229A8C97900CA3B63 /* Disclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disclaimer.swift; sourceTree = "<group>"; };
+		E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCarbo.swift; sourceTree = "<group>"; };
 		E8CB93D329A8B9B0004A6A2C /* Umami3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umami3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umami3App.swift; sourceTree = "<group>"; };
 		E8CB93D829A8B9B0004A6A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +42,8 @@
 		E8CB93DD29A8B9B1004A6A2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E8CB93E229A8B9B1004A6A2C /* Umami3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Umami3.xcdatamodel; sourceTree = "<group>"; };
+		E8CB93EA29A8BA28004A6A2C /* FuturaHandwritten */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaHandwritten; sourceTree = "<group>"; };
+		E8CB93EC29A8BAC8004A6A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +76,19 @@
 		E8CB93D529A8B9B0004A6A2C /* Umami3 */ = {
 			isa = PBXGroup;
 			children = (
+				E8CB93EC29A8BAC8004A6A2C /* Info.plist */,
 				E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */,
 				E8CB93D829A8B9B0004A6A2C /* ContentView.swift */,
+				E8B8886229A8C97900CA3B63 /* Disclaimer.swift */,
+				E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */,
+				E87CBE7029ACB49D0079F008 /* ComposingCarbo.swift */,
+				E87CBE7629AD104E0079F008 /* ModalView.swift */,
+				E8076C1629ADE96C0021DA29 /* ingridients.geojson */,
+				E8076C1829ADE9E70021DA29 /* Bundle.swift */,
+				E8076C1429ADE8FC0021DA29 /* Ingredient.swift */,
+				E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */,
+				E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */,
+				E8CB93E929A8BA28004A6A2C /* Fonts */,
 				E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */,
 				E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */,
 				E8CB93E129A8B9B1004A6A2C /* Umami3.xcdatamodeld */,
@@ -71,6 +103,14 @@
 				E8CB93DD29A8B9B1004A6A2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8CB93E929A8BA28004A6A2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB93EA29A8BA28004A6A2C /* FuturaHandwritten */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8CB93DE29A8B9B1004A6A2C /* Preview Assets.xcassets in Resources */,
+				E8CB93EB29A8BA28004A6A2C /* FuturaHandwritten in Resources */,
+				E8076C1729ADE96C0021DA29 /* ingridients.geojson in Resources */,
 				E8CB93DB29A8B9B1004A6A2C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */,
+				E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */,
+				E87CBE7329ACCDBB0079F008 /* ComposingProtein.swift in Sources */,
 				E8CB93E029A8B9B1004A6A2C /* Persistence.swift in Sources */,
 				E8CB93D929A8B9B0004A6A2C /* ContentView.swift in Sources */,
+				E87CBE7729AD104E0079F008 /* ModalView.swift in Sources */,
+				E8B8886329A8C97900CA3B63 /* Disclaimer.swift in Sources */,
 				E8CB93D729A8B9B0004A6A2C /* Umami3App.swift in Sources */,
 				E8CB93E329A8B9B1004A6A2C /* Umami3.xcdatamodeld in Sources */,
+				E87CBE7529ACCDCB0079F008 /* ComposingVeg.swift in Sources */,
+				E87CBE7129ACB49D0079F008 /* ComposingCarbo.swift in Sources */,
+				E8076C1529ADE8FC0021DA29 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +328,7 @@
 				DEVELOPMENT_TEAM = G87U26L7S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Umami3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +358,7 @@
 				DEVELOPMENT_TEAM = G87U26L7S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Umami3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
