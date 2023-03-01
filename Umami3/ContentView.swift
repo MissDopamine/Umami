@@ -18,7 +18,7 @@ struct ContentView: View {
 
     //Main View:
     var body: some View {
-
+        //Ciao
         ///on ipad we need to substitute the nav view:
         NavigationStack {
             //spacing modifyer only attach to the Stack
