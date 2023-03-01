@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8076C1529ADE8FC0021DA29 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076C1429ADE8FC0021DA29 /* Ingredient.swift */; };
+		E8076C1729ADE96C0021DA29 /* ingridients.geojson in Resources */ = {isa = PBXBuildFile; fileRef = E8076C1629ADE96C0021DA29 /* ingridients.geojson */; };
+		E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076C1829ADE9E70021DA29 /* Bundle.swift */; };
+		E87CBE7129ACB49D0079F008 /* ComposingCarbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7029ACB49D0079F008 /* ComposingCarbo.swift */; };
+		E87CBE7329ACCDBB0079F008 /* ComposingProtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */; };
+		E87CBE7529ACCDCB0079F008 /* ComposingVeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */; };
+		E87CBE7729AD104E0079F008 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CBE7629AD104E0079F008 /* ModalView.swift */; };
+		E8B8886329A8C97900CA3B63 /* Disclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B8886229A8C97900CA3B63 /* Disclaimer.swift */; };
+		E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */; };
+		E8CB93D729A8B9B0004A6A2C /* Umami3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */; };
+		E8CB93D929A8B9B0004A6A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93D829A8B9B0004A6A2C /* ContentView.swift */; };
+		E8CB93DB29A8B9B1004A6A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */; };
+		E8CB93DE29A8B9B1004A6A2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93DD29A8B9B1004A6A2C /* Preview Assets.xcassets */; };
+		E8CB93E029A8B9B1004A6A2C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */; };
+		E8CB93E329A8B9B1004A6A2C /* Umami3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93E129A8B9B1004A6A2C /* Umami3.xcdatamodeld */; };
+		E8CB93EB29A8BA28004A6A2C /* FuturaHandwritten in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93EA29A8BA28004A6A2C /* FuturaHandwritten */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8076C1429ADE8FC0021DA29 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		E8076C1629ADE96C0021DA29 /* ingridients.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ingridients.geojson; sourceTree = "<group>"; };
+		E8076C1829ADE9E70021DA29 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		E87CBE7029ACB49D0079F008 /* ComposingCarbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingCarbo.swift; sourceTree = "<group>"; };
+		E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingProtein.swift; sourceTree = "<group>"; };
+		E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingVeg.swift; sourceTree = "<group>"; };
+		E87CBE7629AD104E0079F008 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		E8B8886229A8C97900CA3B63 /* Disclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disclaimer.swift; sourceTree = "<group>"; };
+		E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCarbo.swift; sourceTree = "<group>"; };
+		E8CB93D329A8B9B0004A6A2C /* Umami3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umami3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umami3App.swift; sourceTree = "<group>"; };
+		E8CB93D829A8B9B0004A6A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8CB93DD29A8B9B1004A6A2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E8CB93E229A8B9B1004A6A2C /* Umami3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Umami3.xcdatamodel; sourceTree = "<group>"; };
+		E8CB93EA29A8BA28004A6A2C /* FuturaHandwritten */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaHandwritten; sourceTree = "<group>"; };
+		E8CB93EC29A8BAC8004A6A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CB93D029A8B9B0004A6A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8CB93CA29A8B9B0004A6A2C = {
+			isa = PBXGroup;
+			children = (
+				E8CB93D529A8B9B0004A6A2C /* Umami3 */,
+				E8CB93D429A8B9B0004A6A2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CB93D429A8B9B0004A6A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB93D329A8B9B0004A6A2C /* Umami3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CB93D529A8B9B0004A6A2C /* Umami3 */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB93EC29A8BAC8004A6A2C /* Info.plist */,
+				E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */,
+				E8CB93D829A8B9B0004A6A2C /* ContentView.swift */,
+				E8B8886229A8C97900CA3B63 /* Disclaimer.swift */,
+				E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */,
+				E87CBE7029ACB49D0079F008 /* ComposingCarbo.swift */,
+				E87CBE7629AD104E0079F008 /* ModalView.swift */,
+				E8076C1629ADE96C0021DA29 /* ingridients.geojson */,
+				E8076C1829ADE9E70021DA29 /* Bundle.swift */,
+				E8076C1429ADE8FC0021DA29 /* Ingredient.swift */,
+				E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */,
+				E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */,
+				E8CB93E929A8BA28004A6A2C /* Fonts */,
+				E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */,
+				E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */,
+				E8CB93E129A8B9B1004A6A2C /* Umami3.xcdatamodeld */,
+				E8CB93DC29A8B9B1004A6A2C /* Preview Content */,
+			);
+			path = Umami3;
+			sourceTree = "<group>";
+		};
+		E8CB93DC29A8B9B1004A6A2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB93DD29A8B9B1004A6A2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8CB93E929A8BA28004A6A2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB93EA29A8BA28004A6A2C /* FuturaHandwritten */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CB93D229A8B9B0004A6A2C /* Umami3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CB93E629A8B9B1004A6A2C /* Build configuration list for PBXNativeTarget "Umami3" */;
+			buildPhases = (
+				E8CB93CF29A8B9B0004A6A2C /* Sources */,
+				E8CB93D029A8B9B0004A6A2C /* Frameworks */,
+				E8CB93D129A8B9B0004A6A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Umami3;
+			productName = Umami3;
+			productReference = E8CB93D329A8B9B0004A6A2C /* Umami3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CB93CB29A8B9B0004A6A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E8CB93D229A8B9B0004A6A2C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E8CB93CE29A8B9B0004A6A2C /* Build configuration list for PBXProject "Umami3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CB93CA29A8B9B0004A6A2C;
+			productRefGroup = E8CB93D429A8B9B0004A6A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CB93D229A8B9B0004A6A2C /* Umami3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CB93D129A8B9B0004A6A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CB93DE29A8B9B1004A6A2C /* Preview Assets.xcassets in Resources */,
+				E8CB93EB29A8BA28004A6A2C /* FuturaHandwritten in Resources */,
+				E8076C1729ADE96C0021DA29 /* ingridients.geojson in Resources */,
+				E8CB93DB29A8B9B1004A6A2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CB93CF29A8B9B0004A6A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */,
+				E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */,
+				E87CBE7329ACCDBB0079F008 /* ComposingProtein.swift in Sources */,
+				E8CB93E029A8B9B1004A6A2C /* Persistence.swift in Sources */,
+				E8CB93D929A8B9B0004A6A2C /* ContentView.swift in Sources */,
+				E87CBE7729AD104E0079F008 /* ModalView.swift in Sources */,
+				E8B8886329A8C97900CA3B63 /* Disclaimer.swift in Sources */,
+				E8CB93D729A8B9B0004A6A2C /* Umami3App.swift in Sources */,
+				E8CB93E329A8B9B1004A6A2C /* Umami3.xcdatamodeld in Sources */,
+				E87CBE7529ACCDCB0079F008 /* ComposingVeg.swift in Sources */,
+				E87CBE7129ACB49D0079F008 /* ComposingCarbo.swift in Sources */,
+				E8076C1529ADE8FC0021DA29 /* Ingredient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8CB93E429A8B9B1004A6A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8CB93E529A8B9B1004A6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CB93E729A8B9B1004A6A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Umami3/Preview Content\"";
+				DEVELOPMENT_TEAM = G87U26L7S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Umami3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francescadesantis.Umami3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CB93E829A8B9B1004A6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Umami3/Preview Content\"";
+				DEVELOPMENT_TEAM = G87U26L7S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Umami3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francescadesantis.Umami3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CB93CE29A8B9B0004A6A2C /* Build configuration list for PBXProject "Umami3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CB93E429A8B9B1004A6A2C /* Debug */,
+				E8CB93E529A8B9B1004A6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CB93E629A8B9B1004A6A2C /* Build configuration list for PBXNativeTarget "Umami3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CB93E729A8B9B1004A6A2C /* Debug */,
+				E8CB93E829A8B9B1004A6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8CB93E129A8B9B1004A6A2C /* Umami3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8CB93E229A8B9B1004A6A2C /* Umami3.xcdatamodel */,
+			);
+			currentVersion = E8CB93E229A8B9B1004A6A2C /* Umami3.xcdatamodel */;
+			path = Umami3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8CB93CB29A8B9B0004A6A2C /* Project object */;
+}
