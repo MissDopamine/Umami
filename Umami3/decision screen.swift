@@ -102,6 +102,8 @@ struct decision_screen: View {
                         Button {
                         } label: {
                             Image("RawCarrot")
+                                .resizable()
+                                .frame(width: 150.0, height: 150.0)
                                 .foregroundColor(.black)
                                 .position(x:350, y:260)
                                 .shadow(color: .black, radius: 4, x: 2, y: 2)
@@ -119,11 +121,12 @@ struct decision_screen: View {
                     }
                 }
                 .padding([.top, .leading], -330.0)
-                .frame(width: 700.0, height: 400.0)
+                .frame(width: 400.0, height: 200.0)
                 
                 Button{} label: {
                     Image("ReadyButton")
                 }
+                .padding(.top, 200.0)
                 
             }
                     
