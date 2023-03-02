@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2A388C29B09BA2002F4E28 /* decision screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A388B29B09BA2002F4E28 /* decision screen.swift */; };
 		E8076C1529ADE8FC0021DA29 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076C1429ADE8FC0021DA29 /* Ingredient.swift */; };
 		E8076C1729ADE96C0021DA29 /* ingridients.geojson in Resources */ = {isa = PBXBuildFile; fileRef = E8076C1629ADE96C0021DA29 /* ingridients.geojson */; };
 		E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076C1829ADE9E70021DA29 /* Bundle.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2A388B29B09BA2002F4E28 /* decision screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "decision screen.swift"; sourceTree = "<group>"; };
 		E8076C1429ADE8FC0021DA29 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		E8076C1629ADE96C0021DA29 /* ingridients.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ingridients.geojson; sourceTree = "<group>"; };
 		E8076C1829ADE9E70021DA29 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				E8076C1429ADE8FC0021DA29 /* Ingredient.swift */,
 				E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */,
 				E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */,
+				1F2A388B29B09BA2002F4E28 /* decision screen.swift */,
 				E8CB93E929A8BA28004A6A2C /* Fonts */,
 				E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */,
 				E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */,
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */,
+				1F2A388C29B09BA2002F4E28 /* decision screen.swift in Sources */,
 				E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */,
 				E87CBE7329ACCDBB0079F008 /* ComposingProtein.swift in Sources */,
 				E8CB93E029A8B9B1004A6A2C /* Persistence.swift in Sources */,
