@@ -1,10 +1,3 @@
-//
-//  ModalView.swift
-//  Umami3
-//
-//  Created by Francesca De Santis on 27/02/23.
-//
-
 import SwiftUI
 
 struct ModalView: View {
@@ -33,86 +26,46 @@ struct ModalView: View {
     }
     
     var mainView: some View {
-        HStack (spacing: 350){
-            /*Text("Add your Carbohydrates...")
-                .font(.custom("FuturaHandwritten", size: 50))
-                .fontWeight(.heavy)
-                .padding(.vertical, 40)
-                .padding(.horizontal, 30)
-                .frame(maxWidth:.infinity, maxHeight: 300, alignment: .topLeading)*/
-            
-            
-            //you will need an HStack here soon:
-            HStack {
-                
-            //RICE BUTTON
-                HStack {
-                       Text("Rice")
-                            
-                            
+        
+        /*Text("Add your Carbohydrates...")
+         .font(.custom("FuturaHandwritten", size: 50))
+         .fontWeight(.heavy)
+         .padding(.vertical, 40)
+         .padding(.horizontal, 30)
+         .frame(maxWidth:.infinity, maxHeight: 300, alignment: .topLeading)*/
+        
+        //
+        
+            NavigationStack {
+                List {
+                    ScrollView  (.horizontal){
+                    
+                        HStack (spacing: 30) {
+                        ForEach(ingredients, id: \.name) { section in
+                            Image("RiceButton")
+                            Image("PastaButton")
+                            Image("CerealButton")
                         }
-                        /*.scaledToFit()
-                        .frame(width: 50, height: 50)
-                        .position(x:483, y:55)*/
-                    
-                }
-                    
-                    //PASTA BUTTON
-                VStack {
-                    Button {
-                    } label: {
-                        Image("RiceButton")
-                            .shadow(color: .black, radius: 4, x: 2, y: 2)
-                        Text("Pasta")
-                            .font(.custom("FuturaHandwritten", size: 50))
-                            .fontWeight(.heavy)
+                        //attached to the list:
+                        shadow(color: .black, radius: 4, x: 2, y: 2)
                     }
-                    /*.scaledToFit()
-                    .frame(width: 50, height: 50)
-                    .position(x:483, y:55)*/
                 }
-                    
-                    //CEREAL BUTTON
-                VStack {
-                    Button {
-                    } label: {
-                        Image("RiceButton")
-                            .shadow(color: .black, radius: 4, x: 2, y: 2)
-                            
-                        Text("Cereal")
-                            .font(.custom("FuturaHandwritten", size: 50))
-                            .fontWeight(.heavy)
-                    }
-                    /*.scaledToFit()
-                    .frame(width: 50, height: 50)
-                    .position(x:483, y:55)*/
-                }
-                
-                    
-                    
-                    /*Text("Rice")
-                     Text("Pasta")
-                     Text("Cereal")
-                     }
-                     .font(.custom("FuturaHandwritten", size: 65))
-                     .frame(maxWidth:.infinity, maxHeight: 300, alignment: .center)*/
-                    //buttons here:
-                    
-                
-                }
-                .frame(height: 405)
-                .frame(maxWidth: .infinity)
-                .background(Color.white)
-                .cornerRadius(25)
-            
+            }
         }
     }
+        
+        //modal modifiers:
+        /*.frame(height: 405)
+         .frame(maxWidth: .infinity)
+         .background(Color.white)
+         .cornerRadius(25)*/
+        
+    }
     
-    
+
     struct ModalView_Previews: PreviewProvider {
         static var previews: some View {
             //ModalView(isShowing: .constant(true))
             ContentView()
         }
     }
-
