@@ -10,9 +10,7 @@ import Foundation
 import SpriteKit
 
 struct Ingredient: Codable {
- 
-    let name: String
-    let image: String
-    let cookingTime: Float
+    var name: String
+    var image: String
 }
 

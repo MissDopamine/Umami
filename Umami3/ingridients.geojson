@@ -1,9 +1,14 @@
 [
-
-{
-"name": "Rice",
-"image": "nome image riso",
-"cookingTime": 3.5
-},
-
+    {
+        "name": "Rice",
+        "image": "RiceButton"
+    },
+    {
+        "name": "Pasta",
+        "image": "",
+    },
+    {
+        "name": "Cereal",
+        "image": "",
+    }
 ]
