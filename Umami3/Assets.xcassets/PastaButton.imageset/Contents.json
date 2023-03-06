@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "rice button.png",
+      "filename" : "pasta button.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "rice button@2x.png",
+      "filename" : "pasta button@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "rice button@3x.png",
+      "filename" : "pasta button@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -42,12 +42,10 @@ struct ModalView: View {
                     
                         HStack (spacing: 30) {
                         ForEach(ingredients, id: \.name) { section in
-                            Image("RiceButton")
-                            Image("PastaButton")
-                            Image("CerealButton")
+                            Image(section.image)
                         }
                         //attached to the list:
-                        shadow(color: .black, radius: 4, x: 2, y: 2)
+//                        shadow(color: .black, radius: 4, x: 2, y: 2)
                     }
                 }
             }
