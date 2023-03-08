@@ -18,6 +18,8 @@
 		E890CCFD29B5E97500EADA27 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890CCFC29B5E97500EADA27 /* TestView.swift */; };
 		E8B8886329A8C97900CA3B63 /* Disclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B8886229A8C97900CA3B63 /* Disclaimer.swift */; };
 		E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */; };
+		E8C769C229B89EF500403EFB /* SelectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C769C129B89EF500403EFB /* SelectableButton.swift */; };
+		E8C769C529B8A0B300403EFB /* IngredientSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C769C429B8A0B300403EFB /* IngredientSelection.swift */; };
 		E8CB93D729A8B9B0004A6A2C /* Umami3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */; };
 		E8CB93D929A8B9B0004A6A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB93D829A8B9B0004A6A2C /* ContentView.swift */; };
 		E8CB93DB29A8B9B1004A6A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 		E890CCFC29B5E97500EADA27 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		E8B8886229A8C97900CA3B63 /* Disclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disclaimer.swift; sourceTree = "<group>"; };
 		E8C75A4D29AB5D5C00DFF77B /* IntroCarbo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCarbo.swift; sourceTree = "<group>"; };
+		E8C769C129B89EF500403EFB /* SelectableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButton.swift; sourceTree = "<group>"; };
+		E8C769C429B8A0B300403EFB /* IngredientSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSelection.swift; sourceTree = "<group>"; };
 		E8CB93D329A8B9B0004A6A2C /* Umami3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umami3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CB93D629A8B9B0004A6A2C /* Umami3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umami3App.swift; sourceTree = "<group>"; };
 		E8CB93D829A8B9B0004A6A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				E87CBE7229ACCDBB0079F008 /* ComposingProtein.swift */,
 				E87CBE7429ACCDCB0079F008 /* ComposingVeg.swift */,
 				1F2A388B29B09BA2002F4E28 /* decision screen.swift */,
+				E8C769C429B8A0B300403EFB /* IngredientSelection.swift */,
+				E8C769C129B89EF500403EFB /* SelectableButton.swift */,
 				E8CB93E929A8BA28004A6A2C /* Fonts */,
 				E8CB93DA29A8B9B1004A6A2C /* Assets.xcassets */,
 				E8CB93DF29A8B9B1004A6A2C /* Persistence.swift */,
@@ -194,6 +200,8 @@
 				E890CCFD29B5E97500EADA27 /* TestView.swift in Sources */,
 				E8C75A4E29AB5D5C00DFF77B /* IntroCarbo.swift in Sources */,
 				1F2A388C29B09BA2002F4E28 /* decision screen.swift in Sources */,
+				E8C769C529B8A0B300403EFB /* IngredientSelection.swift in Sources */,
+				E8C769C229B89EF500403EFB /* SelectableButton.swift in Sources */,
 				E8076C1929ADE9E70021DA29 /* Bundle.swift in Sources */,
 				E87CBE7329ACCDBB0079F008 /* ComposingProtein.swift in Sources */,
 				E8CB93E029A8B9B1004A6A2C /* Persistence.swift in Sources */,
