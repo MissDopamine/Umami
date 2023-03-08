@@ -10,26 +10,62 @@ import SwiftUI
 struct TestView: View {
     //logica della modale:
     @State private var showingModal = false
-
+    ///
+    //@State private var selectedCarb = ""
+    
+    @State private var box = "BentoboxEmpty"
+    
     var body: some View {
         ZStack {
             Image("WoodenTable")
+            Image(box)
             
-            Image("BentoboxEmpty")
-            Button("Show Credits") {
-                showingModal.toggle()
-            }
-            .sheet(isPresented: $showingModal) {
-                Button(action: {
+            Section {
+                Button("BentoboxCarboSection") {
                     showingModal.toggle()
+                }
+            }
+            
+            
+            ///
+            .popover(isPresented: $showingModal) {
+                
+                ///
+                //@Binding private var $selectedCarb: String
+                HStack {
+                //BUTTON 1:
+                    Button(action: {
+                        showingModal.toggle()
+                        //selectedCarb = "Rice"
+                        box = "BentoboxFull"
+                    }, label: {
+                        Image("RiceButton")
+                    })
                     
-                }, label: {
-                    Image("RiceButton")
-                })
-                //cazzariello per chiudere la modale
-                    .presentationDetents([.medium, .large])
+                //BUTTON 2:
+                    Button(action: {
+                        showingModal.toggle()
+                    }, label: {
+                        Image("PastaButton")
+                    })
+                    
+                //BUTTON 3:
+                    Button(action: {
+                        showingModal.toggle()
+                    }, label: {
+                        Image("CerealButton")
+                    })
+                    
+                    //cazzariello per chiudere la modale
+                    //THE ORIGINAL ONE WRITTEN BY GIOVANNI:
+                    
+                    
+                }.padding()
+                
+            }
+           
         }
-        }
+        .ignoresSafeArea()
     }
 }
 

@@ -15,10 +15,16 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+///
+   @State private var selectedCarb = "ciao"
+    
+    //Per la localizzazione in italiano:
+    
+    
+    
     //Main View:
     var body: some View {
-        //Ciao
+     
         ///on ipad we need to substitute the nav view:
         NavigationStack {
             //spacing modifyer only attach to the Stack
@@ -90,12 +96,13 @@ struct ContentView: View {
                         /*.position(x:500, y:10)*/
                         
                     }
-                    //VStack modifiers:
+            .ignoresSafeArea()
+                    
                     
                 }
                 
                 .multilineTextAlignment(.center)
-                .ignoresSafeArea()
+              
             }
             //is attached to ZStack:
             
@@ -154,6 +161,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+       
     }
 }
 

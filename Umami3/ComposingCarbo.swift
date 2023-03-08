@@ -104,9 +104,11 @@ struct ComposingCarbo: View {
                 
             }
             /*.position(x:500, y:10)*/
-            .navigationDestination(isPresented: $readyToNavigate) {
+            .sheet(isPresented: $readyToNavigate) {
                 ModalView(isShowing: .constant(true))
+                    .presentationDetents([.fraction(0.23)])
             }
+
             
         }
         //VStack modifiers:

@@ -60,7 +60,7 @@ var body: some View {
                             Section {
                                 //3a.CarboSection:
                                 //inserting the navigationlink to IntroCarboView inside the button:
-                                NavigationLink(destination: ComposingCarbo(),label: {Image("BentoboxCarboSection")
+                                NavigationLink(destination: TestView(),label: {Image("BentoboxCarboSection")
                                         .resizable()
                                         .frame(width: 334, height: 486)
                                         .position(x:483, y:55)
@@ -108,12 +108,13 @@ var body: some View {
                             }
                             
                         }
+        .ignoresSafeArea()
                         /*.position(x:500, y:10)*/
                         
                     }
                     //VStack modifiers:
         .multilineTextAlignment(.center)
-        .ignoresSafeArea()
+        
                 }
                 
                 
